@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 body {
   margin: 0;
   padding: 0;
@@ -244,4 +246,77 @@ a {
 
 .cf {
   zoom:1;
+}
+
+#pre-header {
+  height: 100%;
+  background-image: url('../images/video_bg.jpg');
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+}
+
+#pre-header h1 {
+    color: #ecf0f1;
+    font-family: Lobster,cursive;
+    margin-bottom: 0;
+    font-size: 50px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 2px 2px #2c3e50;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: -50px;
+    font-weight: 400;
+    border-bottom: 1px solid #d61c1a
+}
+.sec-photo-profile {
+    margin: 0 auto;
+    width: 590px;
+    display: block
+}
+
+.photo-profile {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.9);
+    -moz-box-shadow: 0 0 15px rgba(0,0,0,.9);
+    box-shadow: 0 0 15px rgba(0,0,0,.9);
+    display: inline-block;
+    margin-top: 15px;
+    float: left;
+    margin-left: 10px
+}
+
+.description-box {
+    clear: both;
+    font-size: 16px;
+    width: 50%;
+    margin: 50px auto 0;
+    color: #FFF;
+    padding: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+    background: rgba(0,0,0,.8);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.7);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(0,0,0,.7)
+}
+
+.transparent-bg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0,0,0,.4);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: auto;
+    top: 0;
+    right: 0
+}
+#container {
+  width: 80%;
+  margin: 0 auto;
 }
