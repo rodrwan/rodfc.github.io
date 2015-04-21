@@ -326,7 +326,15 @@ a {
 #pre-content {
   width: 100%;
   background-color: #fff;
-  height: 400px;
+  height: 600px;
+  margin: 0;
+  padding: 100px 0px;
+}
+
+.dj-content {
+  width: 660px;
+  height: 200px;
+  border: 1px solid black;
   margin: 0 auto;
-  padding: 40px 0px;
+  margin-bottom: 30px;
 }
