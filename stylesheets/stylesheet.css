@@ -251,7 +251,7 @@ a {
 #pre-header {
   height: 100%;
   background-image: url('../images/video_bg.jpg');
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 1);
   background-repeat: no-repeat;
 }
 
@@ -302,7 +302,9 @@ a {
     background: rgba(0,0,0,.8);
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,.7);
     -moz-box-shadow: 0 0 10px rgba(0,0,0,.7);
-    box-shadow: 0 0 10px rgba(0,0,0,.7)
+    box-shadow: 0 0 10px rgba(0,0,0,.7);
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .transparent-bg {
@@ -323,6 +325,8 @@ a {
 
 #pre-content {
   width: 100%;
-  background-color: #000;
-  height: 300px;
+  background-color: #fff;
+  height: 400px;
+  margin: 0 auto;
+  padding: 40px 0px;
 }
