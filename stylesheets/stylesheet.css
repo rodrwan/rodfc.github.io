@@ -330,11 +330,9 @@ a {
     text-align: justify;
     text-justify: inter-word;
     background: rgba(0,0,0,.8);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.7);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,.7);
-    box-shadow: 0 0 10px rgba(0,0,0,.7);
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 150px;
+    border: 1px solid;
 }
 
 .transparent-bg {
@@ -376,4 +374,44 @@ a {
 #dj-name {
   width: 400px;
   margin: 0 auto;
+}
+
+.top-frame {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  background-color: #ebebeb;
+  height: 20px;
+  border: 1px solid #EBEBE7;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.button-frame {
+  margin-left: -20px;
+  margin-top: 3px;
+}
+.cmd-button {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 5px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.red-button {
+  background-color: #ff5e5c;
+}
+.yellow-button {
+  background-color: #ffbc44;
+}
+.green-button {
+  background-color: #5ad884;
 }
