@@ -352,10 +352,7 @@ a {
 }
 
 #pre-content {
-  width: 100%;
-  background-color: #fff;
-  height: 600px;
-  margin: 0;
+  background-color: #fcfcfc;
   padding: 25px 0px;
   box-shadow: inset 0px 0px 15px #000;
 }
